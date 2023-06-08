@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta name="list" content="list examples">
+	  <meta name="Iframe" content="Iframe examples">
+	  <meta name="author" content="Krishna">
+	<title>HTML List</title>
+	<link rel="icon" type="image/x-icon" href="ucboslogo.png">
+	<script>
+	  function myFunction() {
+	    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+	  }
+  	</script>
+  	<base href="list.html" target="table.html">
+</head>
+<body>
+	<h2>Unordered list</h2>
+	<ul>
+	  <li>Coffee</li>
+	  <li>Tea</li>
+	  <li>Milk</li>
+	</ul>
+	<ul style="list-style-type:circle;">
+	  <li>Coffee</li>
+	  <li>Tea</li>
+	  <li>Milk</li>
+	</ul>
+	<ul style="list-style-type:square;">
+	  <li>Coffee</li>
+	  <li>Tea</li>
+	  <li>Milk</li>
+	</ul>
+
+	<h2>Ordered list</h2>
+	<ol type="A">
+	  <li>Coffee</li>
+	  <li>Tea</li>
+	  <li>Milk</li>
+	</ol>
+
+	<h2>Description Lists</h2>
+	<dl>
+	  <dt>Coffee</dt>
+	  <dd>- black hot drink</dd>
+	  <dt>Milk</dt>
+	  <dd>- white cold drink</dd>
+	</dl>
+
+	<h2>HTML Iframe</h2>
+	<iframe src="table.html" style="height:300px;width:500px;" title="Employee table"></iframe>
+
+	<p id="demo">A Paragraph</p>
+	<p><button type="button" onclick="myFunction()">click here to change content</button></p>
+	
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Table</title>
+	<link rel="icon" type="image/x-icon" href="ucboslogo.png">
+	<style type="text/css">
+		table, th, td {
+  			border: 1px solid black;
+  			border-collapse: collapse;
+  			border-style: dotted;
+  			border-radius: 4px;
+  			text-align: left;
+  			padding: 15px;
+  			border-spacing: 10px;
+		}
+		tr:nth-child(even) {
+  			background-color: #D6EEEE;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<h1>HTML Table</h1>
+	</center>
+	<center>
+		<table>
+			<colgroup>
+    			<col span="1" style="background-color:grey;">
+    			<col span="4" style="background-color:lightcyan;">
+ 		 	</colgroup>
+ 		 	<thead>
+				<tr>
+					<th>Team</th>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Mobile No</th>
+					<th>Sal</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="2">Dev</td>
+					<td>Krishna</td>
+					<td>krishna.muraripal@itorizon.com</td>
+					<td>8989379327</td>
+					<td>1000</td>
+				</tr>
+				<tr>
+					<td>Manoj</td>
+					<td>manoj@itorizon.com</td>
+					<td>898937000</td>
+					<td>1000</td>
+				</tr>
+				<tr>
+					<td rowspan="2">AIML</td>
+					<td>Saurabh</td>
+					<td>Saurabh@itorizon.com</td>
+					<td>8989379327</td>
+					<td>1000</td>
+				</tr>
+				<tr>
+					<td>Sateesh</td>
+					<td>Sateesh@itorizon.com</td>
+					<td>8989379327</td>
+					<td>1000</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="4">Total Sal</td>
+					<td>4000</td>
+				</tr>
+			</tfoot>
+		</table>
+		
+	</center>
+
+</body>
+</html>

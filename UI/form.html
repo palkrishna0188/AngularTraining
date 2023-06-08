@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Form</title>
+	<style type="text/css">
+		label, input {
+			margin: 5px;
+		}
+		#radiobtn {
+			margin: 5px;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<h2>HTML Forms</h2>
+
+		<form action="/table.html"> 
+		  	<label for="fname">First name:</label>
+			  	<input type="text" id="fname" name="fname" value="John"><br>
+			  	<label for="lname">Last name:</label>
+			  	<input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+			  	<span id="radiobtm">Select Language : </span>
+			 	<input type="radio" id="html" name="fav_language" value="HTML">				
+				<label for="html">HTML</label>
+
+			 	<input type="radio" id="css" name="fav_language" value="CSS">
+			 	<label for="css">CSS</label>
+
+			 	<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+			 	<label for="javascript">JavaScript</label><br>
+
+		  	<input type="submit" value="Submit">
+		</form> 
+	</center>
+
+</body>
+</html>
